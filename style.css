@@ -1,0 +1,72 @@
+
+body {
+  background-image:url(background.jpg);
+  background-size:100%;
+}
+
+.container {
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+    margin: auto;
+    padding:50px;
+    width: 50%;
+}
+
+header img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+}
+
+header h1{
+  color:lime;
+  text-align:center;
+  font-family: sans-serif;
+}
+
+.menu{
+  background-color:lime;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+}
+
+main{
+  color:white;
+}
+
+.freccia::before{
+  content:"\21A6";
+}
+
+main h2{
+  display: inline-block;
+  padding-bottom: none;
+}
+
+.gino, .mike, .fede{
+    line-height:0;
+    padding:10px;
+}
+
+.gino> div{
+  background-color: goldenrod;
+  width: 200px;
+  padding: 20px;
+  border-radius:10px;
+}
+
+.mike> div{
+  background-color: #47d147;
+  width: 300px;
+  padding: 20px;
+  border-radius:10px;
+}
+
+.fede> div{
+  background-color: #e60000;
+  width: 100px;
+  padding:20px;
+  border-radius:10px;
+}
